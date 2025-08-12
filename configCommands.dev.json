@@ -30,3 +30,164 @@
 		}
 	}
 }
+『𝐉𝐄𝐘𝐁𝐎𝐓 𝐌𝐄𝐍𝐔』
+
+📌 Préfixe du bot : € 👑 Créé par : ᎫᏋᎩᏚᎥᏋ ᏦᎪᏀᏋᎩᎯᎷᎥ 🔗 Admin principal UID : 61567005304061
+
+━━━━━━━━━━━━━━━━━━━━
+
+🧑‍💻 COMMANDES UTILISATEURS
+
+1. €help - Liste des commandes
+
+
+2. €weather [ville] - Affiche la météo
+
+
+3. €quote - Citation aléatoire
+
+
+4. €joke - Une blague au hasard
+
+
+5. €gif [mot] - Envoie un GIF
+
+
+6. €cat - Photo de chat 😺
+
+
+7. €dog - Photo de chien 🐶
+
+
+8. €time - Heure actuelle
+
+
+9. €ping - Vérifie si le bot est actif
+
+
+10. €groupinfo - Infos du groupe
+
+
+11. €userinfo - Infos d’un utilisateur
+
+
+12. €say [texte] - Le bot répète
+
+
+13. €8ball [question] - Réponse aléatoire
+
+
+14. €meme - Envoie un mème
+
+
+15. €poll - Crée un sondage
+
+
+16. €love [@nom] - Taux d’amour 💘
+
+
+17. €pp - Affiche ta photo de profil
+
+
+18. €level - Ton niveau fictif
+
+
+19. €top - Classement activité
+
+
+20. €avatar [@nom] - PP d’un utilisateur
+
+
+21. €bgm - Envoie un son random 🎶
+
+
+22. €callad [msg] - Message envoyé à l’admin
+
+
+23. €admin-link - Donne le lien Facebook du créateur
+
+
+24. €bot-admin - Voir la liste des admins du bot (réservé aux admins)
+
+
+
+━━━━━━━━━━━━━━━━━━━━
+
+🛡️ COMMANDES RÉSERVÉES À L’ADMIN DU BOT
+
+❗ Si un utilisateur tente une commande admin : "Retourne dans l’ombre t’as pas le droit d’utiliser cette commande pauvre con(ne) 🐦"
+
+11. €ban [@user] - Bannit un membre
+
+
+12. €warn [@user] - Avertissement
+
+
+13. €setprefix [symbole] - Modifier le préfixe
+
+
+14. €group-close - Ferme le groupe
+
+
+15. €group-open - Rouvre le groupe
+
+
+16. €kick [@user] - Expulse un membre
+
+
+17. €restart - Redémarre le bot
+
+
+18. €mode fight - Active mode clash 😈
+
+
+19. €mode off - Désactive mode clash 😴
+
+
+20. €resetcmds - Réinitialise les commandes
+
+
+
+🆕 NOUVELLES COMMANDES SPÉCIALES ADMIN
+
+50. €new-admin [UID] - Ajoute un admin du bot (Uniquement UID 61567005304061)
+
+
+51. €remove-admin [UID] - Supprime un admin (Uniquement UID 61567005304061)
+
+
+52. €bot-admin - Affiche tous les admins actuels (réservé aux admins)
+
+
+
+Simule l'envoi d'un message dans le groupe ou chat
+
+def send_message(text): print(f"Bot: {text}")
+
+Simule le changement de pseudo dans le groupe
+
+def set_bot_nickname_in_group(group_id, nickname): print(f"Bot ajouté au groupe {group_id} avec le pseudo : {nickname}")
+
+Fonction appelée quand le bot est ajouté dans un groupe
+
+def on_bot_added_to_group(group_id): nickname = "❦𝐉𝐄𝐘𝐆𝐏𝐓╰_╯🐦❦" set_bot_nickname_in_group(group_id, nickname)
+
+Fonction appelée à chaque message reçu
+
+def on_message_received(message): if message.lower().startswith("ai "): user_input = message[3:].strip() if "anniversaire" in user_input.lower(): response = "oh c'est super, joyeux anniversaire à toi 🎉" else: response = "Je suis là pour discuter ! Dis-moi tout." send_message(response) else: print("Message ignoré (non commandé par Ai)")
+
+Exemple d'utilisation
+
+Le bot est ajouté dans un groupe
+
+on_bot_added_to_group("987654321")
+
+Messages reçus
+
+on_message_received("Ai aujourd'hui c'est mon anniversaire") on_message_received("Ai raconte-moi une blague") on_message_received("Bonjour le bot")
+
+Genre comme ça ?
+
+━━━━━━━━━━━━━━━━━━━━
+
+⚠️ Toute tentative d’accès à une commande admin sans autorisation sera sanctionnée par le message d’avertissement automatique.
